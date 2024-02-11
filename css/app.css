@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #d0e86f;
+    --primary-color: #840000;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -31,6 +31,7 @@ h1 {
 
 h2 {
     font-size: 48px;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -39,7 +40,6 @@ h3 {
 }
 
 p {
-    border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -103,4 +103,32 @@ p {
 
 .primary-link:hover {
     color: white
+}
+
+@media (max-width: 576px) {
+
+        h2,p {
+            text-align: center;
+        }
+
+    .primary-link {
+            display: block;
+            text-align: center;
+            margin: 0 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            line-height: 1.5;
+        }
+
+        h2 {
+            font-size: 30px
+        }
+
+        h3 {
+            font-size: 25px;
+            opacity: 0.7;
+        }
+
 }
