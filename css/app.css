@@ -131,4 +131,8 @@ p {
             opacity: 0.7;
         }
 
+        .email-link {
+            font-size: 20px;
+        }
+
 }
